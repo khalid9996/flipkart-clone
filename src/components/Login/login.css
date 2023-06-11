@@ -1,0 +1,114 @@
+.login__page {
+  height: 85vh;
+  background-color: rgb(102, 102, 102);
+}
+
+.login__root {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: 90vh;
+  width: 100%;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__window__parent {
+  display: flex;
+  width: 700px;
+}
+
+.login__window {
+  height: 550px;
+  width: 700px;
+  display: flex;
+  background-color: red;
+}
+
+.login__left {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 42%;
+  height: 100%;
+  background-color: #2874f0;
+  display: flex;
+  flex-direction: column;
+  padding: 45px;
+  justify-content: space-between;
+}
+
+.login__left__div > h2 {
+  font-size: 1.5rem;
+  margin-bottom: 22px;
+}
+
+.login__left__div > span {
+  font-size: 1.1rem;
+  margin-bottom: 7px;
+}
+
+.login__right {
+  width: 58%;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.login__cross {
+  position: relative;
+  right: -10px;
+  height: 30px;
+  width: 30px;
+  color: white;
+}
+
+/* Login Window Right Side */
+
+.login__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.login__right > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login__right > form > input {
+  padding: 9px;
+  font-size: 0.8rem;
+  outline: none;
+  border: none;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgb(69, 77, 94);
+}
+
+.login__right > form > span {
+  font-size: 0.8rem;
+  margin-top: 30px;
+}
+
+.login__right > form > button {
+  padding: 8px;
+  margin-top: 20px;
+  background-color: rgb(251, 100, 27);
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  height: 50px;
+  font-size: 1rem;
+}
+
+.login__right > span {
+  color: #2874f0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
